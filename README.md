@@ -1,36 +1,39 @@
 # API docs
-- The default route gives the list of all available records
+- The default route gives the list of all available records<br/>
   Request Type: **GET**
+  <hr/>
 - Route to get information regarding a specific book:
 
       /data?id=book_id
   Request Type: **GET**
+  <hr/>
 - Route to create a new record:
 
       /create
   Request body example:
 
       {
-        "id": "id2",
-        "name": "Harry Potter",
-        "author": "Saptarshi Dey",
-        "description": "Idk",
+        "id": "book-1",
+        "name": "The return of Sherlock Holmes",
+        "author": "Rudyard Kipling",
+        "description": "To be updated",
         "genres": ["horror", "adventure", "thriller"]
       }
-  **Note:** Only all fields are mandatory
+  **Note:** All fields are mandatory<br/>
   Request Type: **PUT**
+  <hr/>
 - Route to update a specific record:
 
        /update?id=id4
   Request body example:
   
       {
-        "author": "Rudyard Kipling",
-        "description": "Tale of a boy who's lost in the jungle",
+        "author": "Sir Arthur Conan Doyle",
+        "description": "Mr. Sherlock Holmes solving cases",
       }
-  **Note:** Only add those fields that need to be updated
+  **Note:** Only add those fields that need to be updated<br/>
   Request Type: PUT
-
+  <hr/>
 - Route to delete a specific record:
 
       /delete?id=id4
