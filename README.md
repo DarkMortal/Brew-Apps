@@ -1,10 +1,10 @@
 # API docs
 - The default route gives the list of all available records
-  > Request Type: GET
+  Request Type: **GET**
 - Route to get information regarding a specific book:
 
-  > /data?id=book_id
-  Request Type: GET
+      /data?id=book_id
+  Request Type: **GET**
 - Route to create a new record:
 
       /create
@@ -18,7 +18,7 @@
         "genres": ["horror", "adventure", "thriller"]
       }
   **Note:** Only all fields are mandatory
-  > Request Type: PUT
+  Request Type: **PUT**
 - Route to update a specific record:
 
        /update?id=id4
@@ -28,10 +28,11 @@
         "author": "Rudyard Kipling",
         "description": "Tale of a boy who's lost in the jungle",
       }
-  **Note:** Only add those fields that needs to be updated
-  > Request Type: PUT
+  **Note:** Only add those fields that need to be updated
+  Request Type: PUT
 
 - Route to delete a specific record:
-  > /delete?id=id4
 
-PUT request:
+      /delete?id=id4
+
+  Request Type: **PUT**
