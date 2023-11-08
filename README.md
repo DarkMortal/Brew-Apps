@@ -41,3 +41,10 @@
 
   Request Type: **PUT**
   <hr/>
+## To start the application
+
+    yarn devStart
+## To install dependencies
+
+    yarn install
+  Make sure to add your mongodb url in a .env file in the root directory
