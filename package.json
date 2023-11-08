@@ -1,0 +1,24 @@
+{
+  "name": "brewapps-books",
+  "version": "1.0.0",
+  "description": "Books API for BrewApps",
+  "main": "server.js",
+  "author": "Saptarshi Dey",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js",
+    "orm-init": "npx prisma init",
+    "orm-push": "npx prisma db push"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prisma": "^5.5.2"
+  }
+}
