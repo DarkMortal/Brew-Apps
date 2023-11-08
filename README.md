@@ -1,4 +1,5 @@
 # API docs
+## ORM used: [Prisma](https://www.prisma.io/docs)
 - The default route gives the list of all available records<br/>
   Request Type: **GET**
   <hr/>
@@ -39,3 +40,4 @@
       /delete?id=id4
 
   Request Type: **PUT**
+  <hr/>
