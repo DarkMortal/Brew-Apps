@@ -25,7 +25,7 @@
   <hr/>
 - Route to update a specific record:
 
-       /update?id=id4
+       /update?id=book_id
   Request body example:
   
       {
@@ -37,7 +37,7 @@
   <hr/>
 - Route to delete a specific record:
 
-      /delete?id=id4
+      /delete?id=book_id
 
   Request Type: **PUT**
   <hr/>
