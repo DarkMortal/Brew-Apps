@@ -13,7 +13,8 @@
     "start": "node index.js",
     "devStart": "nodemon index.js",
     "orm-init": "npx prisma init",
-    "orm-push": "npx prisma db push"
+    "orm-push": "npx prisma db push",
+    "build": "npx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.5.2",
